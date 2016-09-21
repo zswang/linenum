@@ -1,0 +1,26 @@
+{
+  "homepage": "https://github.com/zswang/linenum",
+  "main": "linenum.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "devDependencies": {},
+  "ignore": [
+    "src",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "name": "linenum",
+  "description": "This tool will replace text pattern with the line number.",
+  "keywords": [
+    "line",
+    "number",
+    "linenumber"
+  ],
+  "version": "0.0.12"
+}
