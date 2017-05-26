@@ -4,6 +4,8 @@ var path = require('path');
 var fs = require('fs');
 var mkdirp = require('mkdirp');
 var packageInfo = require('./package.json');
+var colors = require('colors');
+var util = require('util');
 
 var linenum = require('./');
 
@@ -33,9 +35,9 @@ program.args.forEach(function (filename) {
   }));
 });
 var content = contents.join('\n');
-if (process.output) {
-  mkdirp(path.dirname(process.output));
-  fs.writeFileSync(process.output, content);
+if (program.output) {
+  mkdirp(path.dirname(program.output));
+  fs.writeFileSync(program.output, content);
   console.log(colors.green(util.format('%j linenum output complete.', filenames)));
 }
 else {

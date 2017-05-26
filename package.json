@@ -1,6 +1,6 @@
 {
   "name": "linenum",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "This tool will replace text pattern with the line number.",
   "main": "linenum.js",
   "repository": {
@@ -27,7 +27,7 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-examplejs": "^0.0.9",
-    "gulp-jdists": "^0.0.5",
+    "gulp-jdists": "^2.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.3",
     "istanbul": "^0.3.17",
