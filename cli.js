@@ -28,7 +28,7 @@ var filenames = [];
 program.args.forEach(function (filename) {
   filenames.push(filename);
   contents.push(linenum.replace(fs.readFileSync(filename), {
-    prefix: program.prefix === undefined ? (filename + ':') : '',
+    prefix: program.prefix === undefined ? (filename + ':') : program.prefix,
     suffix: program.suffix,
     offset: program.offset,
     pattern: program.pattern

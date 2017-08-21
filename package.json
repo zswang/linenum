@@ -1,6 +1,6 @@
 {
   "name": "linenum",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "This tool will replace text pattern with the line number.",
   "main": "linenum.js",
   "repository": {

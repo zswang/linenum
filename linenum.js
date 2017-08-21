@@ -7,8 +7,8 @@
    * This tool will replace text pattern with the line number.
    * @author
    *   zswang (http://weibo.com/zswang)
-   * @version 0.0.13
-   * @date 2017-05-26
+   * @version 0.0.14
+   * @date 2017-08-21
    */
   /**
    * 替换字符串行号
